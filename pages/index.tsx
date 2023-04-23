@@ -26,8 +26,8 @@ export default function Home() {
       <Layout>
         <Image  style={{width: '100%', 
                         maxHeight: '750px', 
-                        objectFit: 'cover', 
-                        objectPosition: '0 -80px', 
+                        objectFit: 'fill', 
+                        // objectPosition: '0 -80px', 
                         position: 'absolute', 
                         zIndex: '-2'
                       }}  

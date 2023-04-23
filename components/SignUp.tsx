@@ -4,7 +4,7 @@ type Props = {}
 
 const SignUp = (props: Props) => {
   return (
-    <form className='flex flex-col items-center text-white gap-5 pt-[265px] h-full'>
+    <form className='flex flex-col items-center text-white gap-5 pt-[225px] h-full'>
         <h2 className='uppercase text-3xl font-bold leading-3'>COMING BACK APRIL 2023</h2>
         <h1 className='text-center text-lg'>Sign-up for updates on RFW events, <br/>
             programming and experiences!</h1>
