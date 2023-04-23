@@ -6,11 +6,11 @@ type Props = {}
 
 const Header = (props: Props) => {
     const navItems = [
-        {pageName: 'About', path: '/about'},
-        {pageName: 'Schedule', path: '/schedule'},
-        {pageName: 'Participate', path: '/participate'},
-        {pageName: 'Models', path: '/models'},
-        {pageName: 'Designers', path: '/designers'},
+        {pageName: 'About', path: '/about', id: '1'},
+        {pageName: 'Schedule', path: '/schedule', id: '2'},
+        {pageName: 'Participate', path: '/participate', id: '3'},
+        {pageName: 'Models', path: '/models', id: '4'},
+        {pageName: 'Designers', path: '/designers', id: '5'},
     ]
   return (
     <header className='w-full h-24 bg-black flex items-center justify-between px-14'>

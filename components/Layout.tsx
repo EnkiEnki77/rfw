@@ -10,7 +10,7 @@ const Layout = ({children}: Props) => {
   return (
     <>
         <Header/>
-        <main className='w-full h-[745px] max-h-[1080px] relative'>
+        <main className='w-full h-[745px] bg-star bg-no-repeat bg-cover bg-[0_-120px] max-h-[1080px]'>
             {children}
         </main>
         <Footer/>

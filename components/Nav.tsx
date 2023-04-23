@@ -4,7 +4,7 @@ import React, { ReactNode } from 'react'
 import Image from 'next/image'
 
 type Props = {
-    navItems: {pageName?: string, path?: string}[];
+    navItems: {pageName?: string, path?: string, id: string}[];
     foot?: boolean;
 }
 
@@ -14,10 +14,10 @@ const Nav = ({navItems, foot}: Props) => {
         <ul className={`flex ${foot ? 'gap-4' : 'gap-7'} items-center`}>
             {navItems.map(item => {return (
                 item.path != null ?
-                <Link  href={item.path}>
+                <Link  href={item.path} key={item.id}>
                     <li className='text-white uppercase text-sm font-bold hover:text-[#D88BB9]'>{item.pageName}</li>
                 </Link> :
-                <li className='text-white text-2xl font-bold'>&#x2022;</li>
+                <li key={item.id} className='text-white text-2xl font-bold'>&#x2022;</li>
             )})}      
             
         </ul>

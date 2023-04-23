@@ -24,15 +24,15 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;700&display=swap" rel="stylesheet"/>
       </Head>
       <Layout>
-        <Image  style={{width: '100%', 
-                        maxHeight: '750px', 
+        {/* <Image  style={{width: '100%', 
+                        maxHeight: '1000px', 
                         objectFit: 'fill', 
-                        // objectPosition: '0 -80px', 
+                        objectPosition: '0 -100px', 
                         position: 'absolute', 
                         zIndex: '-2'
                       }}  
                 src={star} 
-                alt='Roanoke star'/>
+                alt='Roanoke star'/> */}
         <SignUp/>
       </Layout>
     </>

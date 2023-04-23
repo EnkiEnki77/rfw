@@ -13,6 +13,9 @@ module.exports = {
       fontFamily:{
         italiana: ['Italiana', 'serif'],
         ibm: ['"IBM Plex Serif"', 'serif']
+      },
+      backgroundImage:{
+        'star': "url('../public/assets/star.png')"
       }
     },
   },

@@ -11,19 +11,13 @@ type Props = {}
 
 const Footer = (props: Props) => {
   const navItems = [
-    {pageName: 'FAQ', path: '/faq'},
-    {pageName: 'dot'},
-    {pageName: 'Privacy Policy', path: '/privacy-policy'},
-    {pageName: 'dot'},
-    {pageName: 'Contact US', path: '/contact-us'},
+    {pageName: 'FAQ', path: '/faq', id: '1'},
+    {pageName: 'dot', id: '2'},
+    {pageName: 'Privacy Policy', path: '/privacy-policy', id: '3'},
+    {pageName: 'dot', id: '4'},
+    {pageName: 'Contact US', path: '/contact-us', id: '5'},
 ]
 
-const socialItems = [
-  {alt: 'insta', path: '/faq', src: '../public/assets/instagram.png'},
-  {alt: 'facebook', path: '/privacy-policy', src: '../public/assets/facebook.png'},
-  {alt: 'twitter', path: '/privacy-policy', src: '../public/assets/twitter.png'},
-  {alt: 'email', path: '/privacy-policy', src: '../public/assets/email.png'},
-]
   return (
     <footer className='w-full  bg-black flex flex-col items-center gap-6'>
       <h1 className='uppercase text-5xl text-[#D88BB9] font-italiana pt-12'>rfw</h1>

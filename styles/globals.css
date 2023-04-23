@@ -7,15 +7,7 @@
         @apply box-border
     }
 
-    html{
-        @apply font-ibm min-h-screen
-    }
-
-    body{
-        @apply min-h-screen
-    }
-
-    #__next{
-        @apply min-h-screen flex flex-col justify-between
+    html, body{
+        @apply font-ibm 
     }
 }
