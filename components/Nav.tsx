@@ -8,17 +8,10 @@ type Props = {
 const Nav = ({navItems}: Props) => {
   return (
     <nav>
-        <ul className='flex gap-6
-        
-        
-        
-        
-        
-        
-        '>
+        <ul className='flex gap-7'>
             {navItems.map(item => {return (
                 <Link  href={item.path}>
-                    <li className='text-white uppercase text-sm font-bold '>{item.pageName}</li>
+                    <li className='text-white uppercase text-sm font-bold hover:text-[#D88BB9]'>{item.pageName}</li>
                 </Link>
             )})}      
         </ul>

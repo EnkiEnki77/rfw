@@ -3,7 +3,19 @@
 @tailwind utilities;
 
 @layer base {
+    *{
+        @apply box-border
+    }
+
     html{
-        @apply font-ibm
+        @apply font-ibm min-h-screen
+    }
+
+    body{
+        @apply min-h-screen
+    }
+
+    #__next{
+        @apply min-h-screen flex flex-col justify-between
     }
 }

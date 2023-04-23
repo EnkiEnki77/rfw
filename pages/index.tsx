@@ -3,6 +3,8 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Layout from '@/components/Layout'
+import star from '../public/assets/star.png'
+import SignUp from '@/components/SignUp'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,7 +24,16 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;700&display=swap" rel="stylesheet"/>
       </Head>
       <Layout>
-        
+        <Image  style={{width: '100%', 
+                        maxHeight: '750px', 
+                        objectFit: 'cover', 
+                        objectPosition: '0 -80px', 
+                        position: 'absolute', 
+                        zIndex: '-2'
+                      }}  
+                src={star} 
+                alt='Roanoke star'/>
+        <SignUp/>
       </Layout>
     </>
   )
