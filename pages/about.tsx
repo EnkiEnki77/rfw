@@ -9,13 +9,13 @@ const about = (props: Props) => {
   return (
     <>
         <Layout>
-          <div className='flex flex-col items-center my-24 gap-4'>
-            <h1 className='text-center text-3xl mb-4 font-bold'>About Roanoke Fashion Week </h1>
-            <p className='text-center px-72'>Roanoke Fashion Week has been empowering and connecting the Roanoke Valley to its roots in Fashion since 2019. Founded and directed by Erika Jenkins, RFW holds a place for anyone with a passion for fashion, regardless of race, gender, sexuality, size, and ability. By providing an uplifting environment that celebrates individuality, Erika and RFW strive to generate opportunities to designers, HMUA, creatives, and models within the community. </p>
-            <p><b><em>It is our mission to help others see the beauty and potential in themselves.</em></b> </p>
+          <div className='flex flex-col items-center mt-12 mb-4 md:my-24 gap-4'>
+            <h1 className='text-center px-5 text-2xl md:text-3xl mb-4 font-bold'>About Roanoke Fashion Week </h1>
+            <p className='text-center px-5 md:px-72'>Roanoke Fashion Week has been empowering and connecting the Roanoke Valley to its roots in Fashion since 2019. Founded and directed by Erika Jenkins, RFW holds a place for anyone with a passion for fashion, regardless of race, gender, sexuality, size, and ability. By providing an uplifting environment that celebrates individuality, Erika and RFW strive to generate opportunities to designers, HMUA, creatives, and models within the community. </p>
+            <p className='px-5 text-center'><b><em>It is our mission to help others see the beauty and potential in themselves.</em></b> </p>
           </div>
-          <div className='flex flex-col items-center mb-24 px-80 gap-5'>
-            <img className='w-1/4 h-1/3 ' src={erika.src} alt="Erika Jenkins" />
+          <div className='flex flex-col items-center mb-16 mt-16 md:mb-24 px-5 md:px-80 gap-5'>
+            <img className='w-4/5 h-1/4 lg:w-1/4 md:h-1/3 ' src={erika.src} alt="Erika Jenkins" />
             <div className='mb-4'>
               <h2 className='text-center text-2xl font-bold'>Meet the Director:</h2>
               <h3 className='text-xl font-semibold text-center'>Erika Jenkins</h3>

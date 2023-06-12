@@ -7,7 +7,7 @@ const privacyPolicy = (props: Props) => {
   return (
     <>
         <Layout>
-            <div className='flex flex-col px-72 gap-8 my-16'>
+            <div className='flex flex-col px-6 lg:px-72 gap-8 my-10 lg:my-16'>
             <div className='flex flex-col gap-4'>
               <h1 className='font-bold'>Roanoke Fashion Week Privacy Policy</h1>
   
@@ -77,7 +77,7 @@ const privacyPolicy = (props: Props) => {
 <div className='flex flex-col gap-4'>
   <h2 className='font-bold'>SHARING YOUR PERSONAL INFORMATION</h2>
   
-  <p>
+  <p className='h-full overflow-hidden'>
     We share your Personal Information with third parties to help us use your Personal Information, as described above.  
     For example, we use Shopify to power our online store--you can read more about how Shopify uses your Personal 
     Information here:  https://www.shopify.com/legal/privacy.  We also use Google Analytics to help us understand 
@@ -98,7 +98,7 @@ const privacyPolicy = (props: Props) => {
     As described above, we use your Personal Information to provide you with targeted advertisements or marketing 
     communications we believe may be of interest to you.  For more information about how targeted advertising works, 
     you can visit the Network Advertising Initiative’s (“NAI”) educational page at 
-    http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work.
+    http://www.networkadvertising.org/<br/>understanding-online-advertising/how-does-it-work.
   </p>
   <p>
     
