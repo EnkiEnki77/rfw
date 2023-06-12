@@ -15,7 +15,7 @@ const Footer = (props: Props) => {
     {pageName: 'dot', id: '2'},
     {pageName: 'Privacy Policy', path: '/privacy-policy', id: '3'},
     {pageName: 'dot', id: '4'},
-    {pageName: 'Contact US', path: '/contact-us', id: '5'},
+    {pageName: 'Contact US', path: '/contact', id: '5'},
 ]
 
   return (
@@ -29,12 +29,7 @@ const Footer = (props: Props) => {
         <Link  href=''>
           <Image src={facebook} alt={'facebook'}/>
         </Link> 
-        <Link  href=''>
-          <Image src={twitter} alt={'twitter'}/>
-        </Link> 
-        <Link  href=''>
-          <Image src={email} alt={'email'}/>
-        </Link> 
+
       </div>
       <p className='text-xs text-white font-normal uppercase pb-16'>&copy; 2023 roanoke fashion week</p>
     </footer>
