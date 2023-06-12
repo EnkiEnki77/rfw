@@ -18,7 +18,7 @@ const about = (props: Props) => {
             <img className='w-4/5 h-1/4 lg:w-1/4 md:h-1/3 ' src={erika.src} alt="Erika Jenkins" />
             <div className='mb-4'>
               <h2 className='text-center text-2xl font-bold'>Meet the Director:</h2>
-              <h3 className='text-xl font-semibold text-center'>Erika Jenkins</h3>
+              <h3 className='text-xl font-semibold text-center'>Erica Jenkins</h3>
             </div>
             <p className='text-center '>
               Erica started modeling when she was in Sydney’s Department store when she was 14 years old. She was brought i

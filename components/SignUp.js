@@ -14,7 +14,7 @@ const SignUp = ({onValidated , status, message}) => {
    
 
   return (
-    <form className='flex flex-col items-center text-white gap-5 pt-[225px] h-full' onSubmit={(e) => submit(e)}>
+    <form className='flex flex-col items-center text-white gap-5 py-24 md:pt-[225px] h-full' onSubmit={(e) => submit(e)}>
         
        
         {status === "sending" && (
