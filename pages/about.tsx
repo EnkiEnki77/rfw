@@ -21,12 +21,12 @@ const about = (props: Props) => {
               <h3 className='text-xl font-semibold text-center'>Erika Jenkins</h3>
             </div>
             <p className='text-center '>
-              Erica started modeling when she was Sydney’s Department store when she was 14 years old. She was brought i
+              Erica started modeling when she was in Sydney’s Department store when she was 14 years old. She was brought i
               nto the industry by her mother, whom is a source of inspiration and guidance in fashion for her. When she turned 18, she began going to castings for designers and shows 
               in New York City. Standing in lines with over 200 models, 
             </p>
             <p className='text-center '>
-              Erica saw a problem the harsh rejection that countless models, including herself, went through. She was denied from 
+              Erica saw a problem with the harsh rejection that countless models, including herself, went through. She was denied from 
               several designers, but her determination to succeed kept her going, until she signed as a model for John Casablanca, 
               in Los Angeles.
               Since then, she has been resolute in her goal to create a fashion community that uplifts people rather than tear 
