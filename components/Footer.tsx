@@ -23,10 +23,10 @@ const Footer = (props: Props) => {
       <h1 className='uppercase text-5xl text-[#D88BB9] font-italiana pt-12'>rfw</h1>
       <Nav navItems={navItems} foot={true}/>
       <div className='flex gap-5'>
-        <Link  href=''>
+        <Link target='_blank'  href='https://instagram.com/theroanokefashionweek?igshid=NTc4MTIwNjQ2YQ=='>
           <Image src={insta} alt={'insta'}/>
         </Link> 
-        <Link  href=''>
+        <Link target='_blank'  href='https://www.facebook.com/profile.php?id=100091134567315&mibextid=LQQJ4d'>
           <Image src={facebook} alt={'facebook'}/>
         </Link> 
 

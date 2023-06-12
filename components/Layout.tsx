@@ -26,7 +26,7 @@ const Layout = ({children, landing}: Props) => {
         <Header/>
         <div className='w-full h-24'>
         </div>
-        <main className={`w-full h-[745px] max-h-[1080px] ${landing != null && 'bg-star bg-no-repeat bg-cover bg-[0_-120px]'}`}>
+        <main className={`w-full  ${landing != null && 'h-[745px] max-h-[1080px] bg-star bg-no-repeat bg-cover bg-[0_-120px]'}`}>
             {children}
         </main>
         <Footer/>
