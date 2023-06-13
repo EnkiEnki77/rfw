@@ -4,9 +4,9 @@ import Nav from './Nav'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import {AiOutlineClose} from 'react-icons/ai'
 
-type Props = {}
 
-const Header = (props: Props) => {
+
+const Header = (props) => {
     const [toggle, setToggle] = useState(false)
 
     const navItems = [

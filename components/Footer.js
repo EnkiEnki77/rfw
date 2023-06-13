@@ -7,9 +7,7 @@ import facebook from '../public/assets/facebook.png'
 import twitter from '../public/assets/twitter.png'
 import email from '../public/assets/email.png'
 
-type Props = {}
-
-const Footer = (props: Props) => {
+const Footer = (props) => {
   const navItems = [
     {pageName: 'FAQ', path: '/faq', id: '1'},
     {pageName: 'dot', id: '2'},

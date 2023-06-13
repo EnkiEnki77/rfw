@@ -3,14 +3,9 @@ import React, { ReactNode } from 'react'
 
 import Image from 'next/image'
 
-type Props = {
-    navItems: {pageName?: string, path?: string, id: string}[];
-    foot?: boolean;
-    head?: boolean,
-    hamburger?: boolean
-}
 
-const Nav = ({navItems, foot, head, hamburger}: Props) => {
+
+const Nav = ({navItems, foot, head, hamburger}) => {
   return (
     <nav className={` ${ head && 'hidden lg:block'}`}>
         <ul className={`flex ${hamburger && 'flex-col'} ${foot ? 'gap-4' : 'gap-7'} items-center`}>
