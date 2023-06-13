@@ -15,7 +15,7 @@ const Footer = (props: Props) => {
     {pageName: 'dot', id: '2'},
     {pageName: 'Privacy Policy', path: '/privacy-policy', id: '3'},
     {pageName: 'dot', id: '4'},
-    {pageName: 'Contact US', path: '/contact', id: '5'},
+    {pageName: 'Contact Us', path: '/contact', id: '5'},
 ]
 
   return (
