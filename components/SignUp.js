@@ -14,24 +14,24 @@ const SignUp = ({onValidated , status, message}) => {
    
 
   return (
-    <form className='flex flex-col items-center text-white gap-5 py-24 md:pt-[225px] h-full' onSubmit={(e) => submit(e)}>
+    <form className='flex flex-col items-center text-white gap-5 py-32 md:pt-[225px] h-full' onSubmit={(e) => submit(e)}>
         
        
         {status === "sending" && (
           <div
-          className=' px-8 py-4 bg-black/40 rounded-xl top-56   absolute mx-auto text-green-300 flex items-center justify-center text-center'
+          className=' px-8 py-4 bg-black/40 rounded-xl top-32 lg:top-56   absolute mx-auto text-green-300 flex items-center justify-center text-center'
             
           >sending...</div>
         )}
         {status === "success" && (
           <div
-          className=' px-8 py-4 bg-black/40 rounded-xl top-56   absolute mx-auto text-pink-300 flex items-center justify-center text-center'
+          className=' px-8 py-4 bg-black/40 rounded-xl top-32 lg:top-56   absolute mx-auto text-pink-300 flex items-center justify-center text-center'
             dangerouslySetInnerHTML={{ __html: message }}
           />
         )}
          {status === "error" && (
           <div
-          className=' px-8 py-4 bg-black/40 rounded-xl top-56   absolute mx-auto text-red-500 flex items-center justify-center text-center'
+          className=' px-8 py-4 bg-black/40 rounded-xl top-32 lg:top-56   absolute mx-auto text-red-500 flex items-center justify-center text-center'
             dangerouslySetInnerHTML={{ __html: message }}
           />
         )}
